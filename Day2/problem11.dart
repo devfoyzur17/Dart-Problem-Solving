@@ -8,7 +8,7 @@
 void main(){
 
  String result = spaceMeOut("space");
- print(result);
+ print('"$result"');
   
 }
 spaceMeOut(String value){
@@ -16,7 +16,7 @@ spaceMeOut(String value){
   for(var n in value.split("")){
     temp.add(n+" ");
   }
-  return temp.join().toString();
+  return temp.join().trimRight();
   
 
 }
