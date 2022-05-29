@@ -6,8 +6,9 @@ forbiddenLetter("r", ["rock", "paper", "scissors"]) ➞ false
 forbiddenLetter("a", ["spoon", "fork", "knife"]) ➞ true 
 */
 void main() {
+  List list = ["rock", "paper", "scissors"];
   
- bool? result = forbiddenLetter("r", ["rock", "paper", "scissors"]);
+ bool? result = forbiddenLetter("r", list );
   print(result);
 }
 
