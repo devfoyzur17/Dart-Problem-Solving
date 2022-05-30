@@ -10,6 +10,7 @@ void main() {
   
  bool? result = forbiddenLetter("r", list );
   print(result);
+  print("Solved by Foyzur Rahaman");
 }
 
 bool? forbiddenLetter(var a, List list) {

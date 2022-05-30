@@ -9,6 +9,7 @@ void main(){
   List list = [2,3];
  String result =evenOrOdd(list);
  print('"$result"');
+ print("Solved by Foyzur Rahaman");
 }
 
 String evenOrOdd(List list){
