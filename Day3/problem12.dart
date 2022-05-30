@@ -9,5 +9,5 @@ void main(){
   print(showSomeItem(["apple","Banana","Mango","Orange","Pineapple","Papaya","Watermelon"]));
   print("Solved by Foyzur Rahaman");
 }
-  showSomeItem(List fruitsList)=> fruitsList.take(3).join(' ').padRight(21,".");
+  showSomeItem(List fruitsList)=> fruitsList.take(3).join(', ').padRight(23,".");
 
