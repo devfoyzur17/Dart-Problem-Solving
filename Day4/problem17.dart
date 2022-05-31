@@ -14,6 +14,7 @@ void main() {
   print("Solved by Foyzur Rahaman");
 }
 
-listLessThan100(List numberOfList) => numberOfList.reduce((value, element) => value + element)<100 ? true: false;
- 
- 
+listLessThan100(List numberOfList) =>
+    numberOfList.reduce((value, element) => value + element) < 100
+        ? true
+        : false;
